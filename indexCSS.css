@@ -52,12 +52,12 @@ header .navigationMenu{
     border-radius: 10px;
 }
 
-/* MAIN LAYOUT */
+/* MAIN LAYOUT AND SECTIONS */
 .MainLayout{
     display: grid;
 }
 
-/* Introduction */
+/* Section 1 - Introduction */
 .Introduction{
     grid-row: 1;
 }
@@ -66,5 +66,31 @@ header .navigationMenu{
     background-color: lightpink;
     border-radius: 5px;
     padding: 20px;
+    font-size: 20px;
+}
+
+/* Section 2 - What is LGBTQ+? */
+.WhatIsLGBTQ{
+    display: grid;
+    grid-row: 2;
+    background-color: rgb(255, 190, 70);
+    border-radius: 5px;
+}
+
+.WhatIsLGBTQ img{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.WhatIsLGBTQTEXT{
+    grid-row: 1;
+    grid-column: 2;
+
+    text-align: left;
+    padding: 20px;
+}
+
+.WhatIsLGBTQTEXT p{
     font-size: 20px;
 }
