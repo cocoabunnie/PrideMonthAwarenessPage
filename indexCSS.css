@@ -118,3 +118,28 @@ header .navigationMenu{
 .WhatIsTheProblemTEXT p{
     font-size: 20px;
 }
+
+/* Section 4 - What is our mission? */
+.OurMission{
+    display: grid;
+    grid-row: 4;
+    background-color: rgb(144, 179, 255);
+    border-radius: 5px;
+}
+
+.OurMission img{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.OurMissionTEXT{
+    grid-row: 1;
+    grid-column: 2;
+
+    text-align: left;
+    padding: 20px;
+}
+
+.OurMissionTEXT p{
+    font-size: 20px;
+}
