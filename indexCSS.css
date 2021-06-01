@@ -6,7 +6,7 @@ h1{
 header{
 	height: 70vh;
 	text-align: center;
-	background-image: url(Art/HeaderBackground.png);
+	background-image: url(Art/unityPicture.jpg);
 	background-position: center;
     background-size: cover;
 }
@@ -15,9 +15,10 @@ header h1{
 	text-align: center;
 	padding-top: 25vh;
 	font-size: 50px;
-	color: rgb(252, 252, 252);
+	color: rgb(0, 0, 0);
 }
 
+/* NAVIGATION MENU */
 /* Making the Navigation Menu in the Header */
 header .navigationMenu{
 	float: left;
@@ -41,6 +42,7 @@ header .navigationMenu{
 .navigationMenu li a{
     /* for each link */
     padding: 5px 10px;
+    border-radius: 10px;
 	text-decoration: none;
 }
 
@@ -48,4 +50,21 @@ header .navigationMenu{
     /* for each link in navigation menu when hovered over with the mouse*/
 	background-color:pink;
     border-radius: 10px;
+}
+
+/* MAIN LAYOUT */
+.MainLayout{
+    display: grid;
+}
+
+/* Introduction */
+.Introduction{
+    grid-row: 1;
+}
+
+.Introduction p{
+    background-color: lightpink;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
 }
