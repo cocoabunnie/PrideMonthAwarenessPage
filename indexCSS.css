@@ -79,8 +79,7 @@ header .navigationMenu{
 
 .WhatIsLGBTQ img{
     grid-column: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row: 1;
 }
 
 .WhatIsLGBTQTEXT{
@@ -92,5 +91,30 @@ header .navigationMenu{
 }
 
 .WhatIsLGBTQTEXT p{
+    font-size: 20px;
+}
+
+/* Section 3 - What is the Problem? */
+.WhatIsTheProblem{
+    display: grid;
+    grid-row: 3;
+    background-color: rgb(207, 255, 144);
+    border-radius: 5px;
+}
+
+.WhatIsTheProblem img{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.WhatIsTheProblemTEXT{
+    grid-row: 1;
+    grid-column: 1;
+
+    text-align: left;
+    padding: 20px;
+}
+
+.WhatIsTheProblemTEXT p{
     font-size: 20px;
 }
