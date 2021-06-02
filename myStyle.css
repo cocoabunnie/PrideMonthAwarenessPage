@@ -6,10 +6,69 @@ body {
 .MainLayout{
     display: grid;
 } 
-  h1 {
+
+
+/*
+h1 {
     color: SaddleBrown;
     margin-left: 20px;
   }
+  */
+
+/* Header*/
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+header{
+	height: 70vh;
+	text-align: center;
+	background-image: url(Art/unityPicture.jpg);
+	background-position: center;
+    background-size: cover;
+}
+
+header h1{
+	text-align: center;
+	padding-top: 25vh;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+}
+
+/* NAV */
+header .navigationMenu{
+	float: left;
+}
+
+.navigationMenu {
+    /* Code for the menu overall */
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.navigationMenu li {
+    /* Code for the list of links*/
+	display: inline-block; /*Lines up across from left to right*/
+    margin-left: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.navigationMenu li a{
+    /* for each link */
+    padding: 5px 10px;
+    border-radius: 10px;
+	text-decoration: none;
+}
+
+.navigationMenu li a:hover {
+    /* for each link in navigation menu when hovered over with the mouse*/
+	background-color:pink;
+    border-radius: 10px;
+}
   
   P {
    text-align: left;
@@ -17,14 +76,14 @@ body {
    margin-left: 120px;
    margin-right: 120px;
    border-radius: 5px;
-   background-color: tan;
    padding: 20px;
   }
   
   h2 {
     color: black;
-    background-color: tan;
   }
+
+
   hr {
     border-color: SaddleBrown;
   }
@@ -109,4 +168,53 @@ body {
   
   label{
     color: maroon;
+  }
+
+  /*Boxes*/
+  .MainLayout{
+    display: grid;
+  }
+
+  .Intro{
+    grid-row: 1;
+    background-color: pink;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  
+
+  .lesbian{
+    grid-row: 2;
+    background-color: rgb(247, 192, 140);
+    margin: 20px;
+    border-radius: 20px;
+  }
+
+  .gay{
+    grid-row: 3;
+    background-color: rgb(250, 232, 152);
+    margin: 20px;
+    border-radius: 20px;
+  }
+
+  .bisexual{
+    grid-row: 4;
+    background-color: rgb(176, 250, 176);
+    margin: 20px;
+    border-radius: 20px;
+  }
+  
+
+  .transgender{
+    grid-row: 5;
+    background-color: rgb(192, 209, 255);
+    margin: 20px;
+    border-radius: 20px;
+  }
+
+  .queer{
+    grid-row: 6;
+    background-color: rgb(221, 160, 245);
+    margin: 20px;
+    border-radius: 20px;
   }
