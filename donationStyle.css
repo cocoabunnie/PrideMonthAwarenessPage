@@ -54,7 +54,7 @@ header .navigationMenu{
 /* ends here */
 
 .link img {
-    height: 10vh;
+    height: 15vh;
 }
 
 .link {
@@ -63,7 +63,7 @@ header .navigationMenu{
     background-image: url(Images/BigPride.jpg);
     border-radius: 1rem;
     margin: 2rem 0rem;
-    padding: 2rem;
+    padding: 5rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between; 
 
@@ -77,18 +77,24 @@ h1 {
 }
 
 
-h2, a {
+h2 {
 
     color: white;
     font-size: 3vh;
     
 }
 
+a :hover {
+    
+    color: skyblue
+
+}
+
 h3 {
-    color: black;
+    color: teal;
     font-size: 3vh;
 }
 
 body {
-    background: linear-gradient( to bottom, white, #fffdd0);
-  }
+    background: #fffdd0;
+}
