@@ -3,7 +3,7 @@
 /* Taken from index.html for uniformity's sake */
 /* begins here */
 header{
-	height: 30vh;
+	height: 70vh;
 	text-align: center;
 	background-image: url(Images/unityPicture.jpg);
 	background-position: center;
@@ -58,7 +58,7 @@ body {
 }
 
 .link img {
-    height: 5vh;
+    height: 10vh;
 }
 
 .link {
@@ -79,16 +79,16 @@ body {
 
 h1 { 
    
-    color: #000;
-    font-size: 1.5vh;
+    color: #;
+    font-size: 3vh;
 
 }
 
 
-h2, a {
+h2, h3, a {
 
-    color: #000;
-    font-size: 1vh;
+    color: #ffffff;
+    font-size: 1.5vh;
     
 }
 
