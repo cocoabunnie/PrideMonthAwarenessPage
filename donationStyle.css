@@ -1,0 +1,94 @@
+
+
+/* Taken from index.html for uniformity's sake */
+/* begins here */
+header{
+	height: 70vh;
+	text-align: center;
+	background-image: url(Images/unityPicture.jpg);
+	background-position: center;
+    background-size: cover;
+}
+
+header h1{
+	text-align: center;
+	padding-top: 25vh;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+}
+
+/* NAVIGATION MENU */
+/* Making the Navigation Menu in the Header */
+header .navigationMenu{
+	float: left;
+}
+
+.navigationMenu {
+    /* Code for the menu overall */
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.navigationMenu li {
+    /* Code for the list of links*/
+	display: inline-block; /*Lines up across from left to right*/
+    /*margin-left: 10px;*/
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navigationMenu li a{
+    /* for each link */
+    padding: 5px 10px;
+    border-radius: 10px;
+	text-decoration: none;
+}
+
+.navigationMenu li a:hover {
+    /* for each link in navigation menu when hovered over with the mouse*/
+	background-color:pink;
+    border-radius: 10px;
+}
+
+/* ends here */
+
+.link img {
+    height: 10vh;
+}
+
+.link {
+
+    display: flex;
+    background-image: url(Images/BigPride.jpg);
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between; 
+
+}
+
+h1 { 
+   
+    color: #ffffff;
+    font-size: 3vh;
+
+}
+
+
+h2, a {
+
+    color: white;
+    font-size: 3vh;
+    
+}
+
+h3 {
+    color: black;
+    font-size: 3vh;
+}
+
+body {
+    background: linear-gradient( to bottom, white, #fffdd0);
+  }
