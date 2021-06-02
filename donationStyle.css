@@ -77,11 +77,18 @@ h1 {
 }
 
 
-h2, a {
+h2 {
 
     color: white;
     font-size: 3vh;
     
+}
+
+h2 :hover {
+    
+    color: teal;
+    border-bottom: 1px solid teal 
+
 }
 
 h3 {
