@@ -1,0 +1,156 @@
+/* CREDIT
+This website was a group project for the CUNY TTP at Lehman College completed by Mariana Vazquez, 
+Chris Kevin Andrade, and Brianna Duvivier.
+
+This CSS file named indexCSS.css was completed by Brianna Duvivier*/
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+header{
+	height: 70vh;
+	text-align: center;
+	background-image: url(Art/unityPicture.jpg);
+	background-position: center;
+    background-size: cover;
+}
+
+header h1{
+	text-align: center;
+	padding-top: 25vh;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+}
+
+/* NAVIGATION MENU */
+/* Making the Navigation Menu in the Header */
+header .navigationMenu{
+	float: left;
+}
+
+.navigationMenu {
+    /* Code for the menu overall */
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.navigationMenu li {
+    /* Code for the list of links*/
+	display: inline-block; /*Lines up across from left to right*/
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navigationMenu li a{
+    /* for each link */
+    padding: 5px 10px;
+    border-radius: 10px;
+	text-decoration: none;
+}
+
+.navigationMenu li a:hover {
+    /* for each link in navigation menu when hovered over with the mouse*/
+	background-color:pink;
+    border-radius: 10px;
+}
+
+/* MAIN LAYOUT AND SECTIONS */
+.MainLayout{
+    display: grid;
+}
+
+/* Section 1 - Introduction */
+.Introduction{
+    grid-row: 1;
+    margin: 20px;
+}
+
+.Introduction p{
+    background-color: lightpink;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Section 2 - What is LGBTQ+? */
+.WhatIsLGBTQ{
+    display: grid;
+    grid-row: 2;
+    background-color: rgb(255, 190, 70);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.WhatIsLGBTQ img{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.WhatIsLGBTQTEXT{
+    grid-row: 1;
+    grid-column: 2;
+
+    text-align: left;
+    padding: 20px;
+}
+
+.WhatIsLGBTQTEXT p{
+    font-size: 20px;
+}
+
+/* Section 3 - What is the Problem? */
+.WhatIsTheProblem{
+    display: grid;
+    grid-row: 3;
+    background-color: rgb(207, 255, 144);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.WhatIsTheProblem img{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.WhatIsTheProblemTEXT{
+    grid-row: 1;
+    grid-column: 1;
+
+    text-align: left;
+    padding: 20px;
+}
+
+.WhatIsTheProblemTEXT p{
+    font-size: 20px;
+}
+
+/* Section 4 - What is our mission? */
+.OurMission{
+    display: grid;
+    grid-row: 4;
+    background-color: rgb(144, 179, 255);
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.OurMission img{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.OurMissionTEXT{
+    grid-row: 1;
+    grid-column: 2;
+
+    text-align: left;
+    padding: 20px;
+}
+
+.OurMissionTEXT p{
+    font-size: 20px;
+}
