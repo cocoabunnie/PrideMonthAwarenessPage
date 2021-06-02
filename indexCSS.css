@@ -1,3 +1,9 @@
+/* CREDIT
+This website was a group project for the CUNY TTP Program completed by Mariana Vazquez, 
+Chris Kevin Andrade, and Brianna Duvivier.
+
+This CSS file named indexCSS.css was completed by Brianna Duvivier*/
+
 h1{
     text-align: center;
     padding: 10px;
@@ -34,7 +40,7 @@ header .navigationMenu{
 .navigationMenu li {
     /* Code for the list of links*/
 	display: inline-block; /*Lines up across from left to right*/
-    /*margin-left: 10px;*/
+    margin-left: 20px;
     background-color: white;
     border-radius: 10px;
 }
@@ -60,6 +66,7 @@ header .navigationMenu{
 /* Section 1 - Introduction */
 .Introduction{
     grid-row: 1;
+    margin: 20px;
 }
 
 .Introduction p{
@@ -75,6 +82,7 @@ header .navigationMenu{
     grid-row: 2;
     background-color: rgb(255, 190, 70);
     border-radius: 5px;
+    margin: 20px;
 }
 
 .WhatIsLGBTQ img{
@@ -100,6 +108,7 @@ header .navigationMenu{
     grid-row: 3;
     background-color: rgb(207, 255, 144);
     border-radius: 5px;
+    margin: 20px;
 }
 
 .WhatIsTheProblem img{
@@ -125,6 +134,8 @@ header .navigationMenu{
     grid-row: 4;
     background-color: rgb(144, 179, 255);
     border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 40px;
 }
 
 .OurMission img{
