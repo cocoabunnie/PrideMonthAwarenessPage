@@ -3,7 +3,7 @@
 header{
 	height: 70vh;
 	text-align: center;
-	background-image: url(Art/unityPicture.jpg);
+	background-image: url(Images/unityPicture.jpg);
 	background-position: center;
     background-size: cover;
 }
@@ -52,9 +52,43 @@ header .navigationMenu{
 /* ends here */
 
 body {
-    background-image: url(/Images/BigPride.jpg);
+    background-image: url(Images/BigPride.jpg);
 }
 
 .link img {
     height: 5vh;
 }
+
+.link {
+
+    display: flex;
+    background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.05)
+    );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between; 
+
+}
+
+h1 { 
+   
+    color: #ffffff;
+    font-size: 1.5vh;
+
+}
+
+
+h2, a {
+
+    color: #ffffff;
+    font-size: 1vh;
+    
+}
+
+
+
