@@ -50,3 +50,7 @@ header .navigationMenu{
 }
 
 /* ends here */
+
+body {
+    background-image: url(/Images/BigPride.jpg);
+}
