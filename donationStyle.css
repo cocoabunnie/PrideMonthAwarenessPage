@@ -77,10 +77,18 @@ h1 {
 }
 
 
-h2, h3, a {
+h2, a {
 
     color: white;
     font-size: 3vh;
     
 }
 
+h3 {
+    color: black;
+    font-size: 3vh;
+}
+
+body {
+    background: linear-gradient( to bottom, white, #fffdd0);
+  }
