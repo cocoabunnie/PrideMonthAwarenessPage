@@ -54,3 +54,7 @@ header .navigationMenu{
 body {
     background-image: url(/Images/BigPride.jpg);
 }
+
+.link img {
+    height: 10vh;
+}
