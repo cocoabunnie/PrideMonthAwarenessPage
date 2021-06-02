@@ -1,5 +1,8 @@
 # PrideMonthAwarenessPage
 
+Submission: https://pride-month-awareness-page.vercel.app/
+
+Assignment Given:
 Choose a cause that your group really cares about and put together a small informational website  using HTML/CSS trying to convince people to donate to or help this cause. This site should be  2-3 pages and look as professional as possible using modern design trends. Research similar  websites to get inspiration. 
 Once you have decided on a cause, 
 begin by selecting one member to create a Git repo with an 
